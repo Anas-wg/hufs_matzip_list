@@ -15,6 +15,7 @@ const Form = ({handleSubmit, value, setValue}) => {
                     name = "value" 
                     className='w-full px-3 py-2 mr-4 text-gray-500 border rounded shawdow'
                     placeholder = "가게이름(종류)를 입력하세요"
+                    autoComplete = "off"
                     value={value}
                     onChange={handleChange}
                 />
